@@ -9,7 +9,7 @@ html {
   }
   aside{
     float: right;
-    min-width: 50%
+    min-width: 40%
   }
   p{
     font-size:20px;
@@ -32,6 +32,7 @@ html {
   .imageDessert {
     width: 100%;
     border-radius: 5px;
+    border: 3px solid transparent;
   }
 
   .simpleNameDessert {
@@ -45,16 +46,23 @@ html {
   .price{
     color:red;
   }
-  .btnAddToCart{
-    display: flex;
+  .btn{
     width: 100%;
     height: fit-content;
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    border-radius: 10px;
+    border-radius: 0.8rem;
     border: none;
+    padding: 0 -10px;
   }
-  .btnAddToCart:hover{
+  .btnAddToCart{
+    display: flex;
+  }
+  button:hover{
     cursor: pointer;
+  }
+  .btnAddAmount{
+    display: none;
+    background-color: rgb(236, 72, 72);
   }
